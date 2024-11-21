@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 400px;
+    margin: 20px auto;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #121212;
+  }
+  
+  /* Header */
+  .profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .profile-header h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .menu-btn {
+    background: none;
+    color: #fff;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  
+  /* Profile Info */
+  .profile-section {
+    margin: 20px 0;
+  }
+  
+  .profile-picture {
+    width: 100px;
+    height: 100px;
+    background-color: #444;
+    border-radius: 50%;
+    margin: 10px auto;
+  }
+  
+  .profile-stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .profile-stats p {
+    margin: 0;
+  }
+  
+  /* Bio and Links */
+  .profile-bio a {
+    color: #1e90ff;
+    text-decoration: none;
+  }
+  
+  .profile-bio p {
+    margin-top: 10px;
+  }
+  
+  /* Buttons */
+  .profile-buttons {
+    margin: 20px 0;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .follow-btn {
+    background-color: #0095f6;
+    color: white;
+  }
+  
+  .message-btn {
+    background-color: #333;
+    color: white;
+    border: 1px solid #444;
+  }
+  
+  /* Suggestions */
+  .suggestions {
+    margin-top: 30px;
+  }
+  
+  .suggestions h2 {
+    text-align: left;
+    margin-left: 10px;
+  }
+  
+  .suggestion-list {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .suggestion-item {
+    text-align: center;
+  }
+  
+  .user-avatar {
+    width: 50px;
+    height: 50px;
+    background-color: #444;
+    border-radius: 50%;
+    margin: 0 auto 5px;
+  }
